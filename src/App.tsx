@@ -1,6 +1,5 @@
 import Cart from "./components/Cart";
 import Desserts from "./components/Desserts";
-
 function App() {
   return (
     <main id="main">
