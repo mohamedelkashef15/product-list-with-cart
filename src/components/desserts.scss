@@ -1,0 +1,50 @@
+@import "../global.scss";
+
+.dessert {
+  h1 {
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  .dessert-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    .dessert-item {
+      position: relative;
+      .product-img {
+        width: 100%;
+        border-radius: 15px;
+      }
+
+      .btn-cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 20px;
+        border-radius: 25px;
+        border: 1px solid $rose300;
+        position: absolute;
+        top: 245px;
+        left: 72px;
+        background-color: $rose50;
+        cursor: pointer;
+      }
+      .product-details {
+        padding: 15px 0;
+        .category {
+          font-size: 12px;
+          color: $rose500;
+        }
+        .product-title {
+          font-size: 16px;
+          font-weight: 600;
+          color: $rose900;
+        }
+        .product-price {
+          color: $red;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

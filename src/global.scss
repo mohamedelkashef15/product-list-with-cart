@@ -16,3 +16,20 @@ $rose300: hsl(14, 25%, 72%);
 $rose400: hsl(7, 20%, 60%);
 $rose500: hsl(12, 20%, 44%);
 $rose900: hsl(14, 65%, 9%);
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  background-color: $rose50;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+#main {
+  .row {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+}
