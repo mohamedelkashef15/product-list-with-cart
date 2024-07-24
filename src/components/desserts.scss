@@ -1,6 +1,6 @@
 @import "../global.scss";
 
-.dessert {
+#dessert {
   h1 {
     margin-bottom: 2rem;
     letter-spacing: 1px;
@@ -24,8 +24,8 @@
         border-radius: 25px;
         border: 1px solid $rose300;
         position: absolute;
-        top: 245px;
-        left: 72px;
+        top: 62%;
+        left: 22%;
         background-color: $rose50;
         cursor: pointer;
 

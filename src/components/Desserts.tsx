@@ -77,7 +77,7 @@ const productData = [
 
 function Desserts() {
   return (
-    <div className="dessert">
+    <div id="dessert">
       <h1>Desserts</h1>
       <div className="dessert-items">
         {productData.map((product) => {
